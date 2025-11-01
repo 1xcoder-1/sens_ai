@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useEffect, useRef } from "react";
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -75,14 +74,11 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.6 }}
         >
           <div ref={imageRef} className="hero-image">
-            <Image
+            <img
               src="/banner.jpeg"
-              width={1280}
-              height={720}
               alt="Dashboard Preview"
               className="rounded-lg shadow-2xl border mx-auto max-w-full h-auto"
-              priority
-              unoptimized={true}
+              loading="eager"
             />
           </div>
         </motion.div>
