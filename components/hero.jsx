@@ -82,6 +82,7 @@ const HeroSection = () => {
               alt="Dashboard Preview"
               className="rounded-lg shadow-2xl border mx-auto max-w-full h-auto"
               priority
+              unoptimized={false}
             />
           </div>
         </motion.div>
