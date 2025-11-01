@@ -10,6 +10,7 @@ const isPublicRoute = createRouteMatcher([
   "/_next(.*)",
   "/favicon.ico",
   "/logo.png",
+  "/banner.jpeg",
   "/robots.txt",
   "/sitemap.xml",
 ]);
