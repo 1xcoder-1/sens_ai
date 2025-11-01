@@ -7,6 +7,7 @@ const nextConfig = {
         hostname: "randomuser.me",
       },
     ],
+    domains: ['localhost', '127.0.0.1'],
   },
 };
 
